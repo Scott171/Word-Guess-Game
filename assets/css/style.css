@@ -1,0 +1,23 @@
+body {
+    background-image: url("../images/CandyBG.jpg")
+}
+header {color:red;
+font-size: 50px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+text-align: center;
+text-shadow: -1px 0 purple, 0 1px purple, 1px 0 purple, 0 -1px purple;}
+
+.container{
+    color: blue;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+border: 5px dotted purple;
+width: 960px;
+height: 500px;
+padding:20px;
+margin-left: 210px;
+text-shadow: -1px 0 aqua, 0 1px aqua, 1px 0 aqua, 0 -1px aqua;
+
+}
+p{text-align:center;}
