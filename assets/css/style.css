@@ -1,11 +1,13 @@
 body {
     background-image: url("../images/CandyBG.jpg")
 }
-header {color:red;
-font-size: 50px;
+h1 {color:red;
+font-size: 100px;
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 text-align: center;
-text-shadow: -1px 0 purple, 0 1px purple, 1px 0 purple, 0 -1px purple;}
+text-shadow: -1px 0 purple, 0 1px purple, 1px 0 purple, 0 -1px purple;
+margin:50px;
+}
 
 .container{
     color: blue;
@@ -14,10 +16,26 @@ text-shadow: -1px 0 purple, 0 1px purple, 1px 0 purple, 0 -1px purple;}
     font-weight: bold;
 border: 5px dotted purple;
 width: 960px;
-height: 500px;
-padding:20px;
+height: 580px;
+padding:50px;
 margin-left: 210px;
 text-shadow: -1px 0 aqua, 0 1px aqua, 1px 0 aqua, 0 -1px aqua;
 
 }
 p{text-align:center;}
+#userchoice-text{
+    font-size:35px;
+
+}
+#wrong-letters-guessed{
+  
+    text-align: center;
+}
+
+}
+.wrong{
+    text-align: center;
+}
+.instruction{
+    opacity:1;
+}
